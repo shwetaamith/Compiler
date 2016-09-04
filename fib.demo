@@ -1,0 +1,12 @@
+program Sample1;
+var Integer n:=4;
+function Integer fib(Integer n){
+        if n < 2 then
+        return n;
+        else
+        return fib(n-1) + fib(n-2);
+        endif;
+    }
+begin{
+    print(fib(n));
+}

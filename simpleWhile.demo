@@ -1,0 +1,10 @@
+program Sample;
+var Integer x:=4;
+begin
+{
+while
+x>2
+x:=x-1;
+endwhile;
+print(x);
+}

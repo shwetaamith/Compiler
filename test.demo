@@ -1,0 +1,8 @@
+program loop;
+var Integer x:=4;
+begin{
+    while x>0
+        x:=x-1;
+        print(x);
+    endwhile;
+}

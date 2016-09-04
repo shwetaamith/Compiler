@@ -1,0 +1,11 @@
+program Sample1; var Integer x:=4;
+function Integer factorial(Integer number){
+        if number < 2 then
+        return 1;
+        else
+        return number * factorial(number - 1);
+        endif;
+    }
+begin{
+    print(factorial(x));
+}

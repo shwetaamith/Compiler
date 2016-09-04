@@ -1,0 +1,6 @@
+program Sample;
+       begin{
+           Stack stack1 := new Stack;
+           pushStack stack1 1;
+           print(popStack stack1);
+       }

@@ -1,0 +1,14 @@
+position 1
+load 4
+define x
+load x
+load 0
+greaterThan
+loopstart 
+load x
+load 1
+SUB
+store x
+load x
+print
+gotostart 4

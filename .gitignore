@@ -1,0 +1,6 @@
+instr.txt
+test.iml
+*.idea
+gen/
+out/
+test/
